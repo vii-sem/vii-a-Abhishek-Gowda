@@ -10,17 +10,19 @@ The application and its development are divided into three interconnected parts.
 3.Controller: Controller controls the requests of the user and then generates appropriate response which is fed to the viewer. Typically, the user interacts with the View, which in turn generates the appropriate request, this request will be handled by a controller. The controller renders the appropriate view with the model data as a response.
 
 MVC Architecture
- 
+ ![image](https://user-images.githubusercontent.com/88653839/140686219-c3d10805-6a05-4935-bbb2-2e5f674db8a1.png)
 
 
-Advantages
+
+
+*****Advantages
 1.Faster Development Process
 2.Ability To Provide Multiple Views
 3.Support For Asynchronous Technique
 4.Modification Does Not Affect The Entire Model
 5.MVC Model Returns The Data Without Formatting
 6.SEO Friendly Development Platform
-Debugging in NodeJS
+*****Debugging in NodeJS
 **Various Debugging Methods
 1.Debugging a Node.js application that uses nodemon
 2.Debug with V8 Debugging Protocol
